@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak - Portofolio Syakila</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="syakila_header">
+    <a href="index.html" class="syakila_logo">Syakila.dev</a>
+    <button id="syakila_hamburger">☰</button>
+    <ul class="syakila_menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">Tentang Saya</a></li>
+      <li><a href="skills.html">Keahlian</a></li>
+      <li><a href="projects.html">Proyek</a></li>
+      <li><a href="experience.html">Aktivitas</a></li>
+      <li><a href="certificates.html">Sertifikat</a></li>
+      <li><a href="contact.html" class="syakila_active">Kontak</a></li>
+    </ul>
+  </header>
+
+  <main class="syakila_container">
+    <h2 class="syakila_section_title">Hubungi Saya</h2>
+    <p class="syakila_subtitle">Silakan kirim pesan atau pertanyaan melalui formulir di bawah ini.</p>
+
+    <form id="syakila_form_kontak">
+      <div class="syakila_form_group">
+        <label for="syakila_input_nama">Nama Lengkap</label>
+        <input type="text" id="syakila_input_nama" placeholder="Masukkan nama Anda" required>
+      </div>
+      <div class="syakila_form_group">
+        <label for="syakila_input_email">Alamat Email</label>
+        <input type="email" id="syakila_input_email" placeholder="nama@email.com" required>
+      </div>
+      <div class="syakila_form_group">
+        <label for="syakila_input_pesan">Pesan</label>
+        <textarea id="syakila_input_pesan" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+      </div>
+      <button type="submit" class="syakila_btn">Kirim Pesan</button>
+      <p id="syakila_form_status"></p>
+    </form>
+  </main>
+
+  <footer id="syakila_footer">
+    &copy; 2026 Syakila Nadia Darmawan (2503010097) - Teknik Informatika Universitas Perjuangan Tasikmalaya
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
